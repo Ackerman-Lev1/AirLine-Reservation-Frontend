@@ -4,8 +4,8 @@ import Header from './Header';
 const Layout = ({ children }) => {
   return (
     <div>
-      <Header />
-      <div className="container mt-4" >
+      <div><Header /></div>
+      <div className="container mt-4" style={{paddingTop:"50px"}} >
         {children}
       </div>
     </div>

@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(196, 206, 238);
+    background-color: white;
 }
 span{
     color: #fff;
@@ -24,15 +24,21 @@ span{
   }
   .slide {
     display: none;
-    transition: opacity 1s ease;
+    /* transition: opacity 1s ease; */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
   }
 
   .slide.active {
     display: block;
+    opacity: 1;
   }
   .slide img {
     width: 100%;
     height: auto;
+  }
+  .slide.transitioning {
+    opacity: 0;
   }
 
   #getInspire{

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./CssAll/HeaderStyle.css";
-import airLine from "./Images/airLine.jpg";
+import logo from "./Images/logo.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 
@@ -30,42 +30,44 @@ const Header = () => {
   };
 
   return (
-    <header className="shadow sticky z-50 top-0">
-      <nav className="navbar navbar-expand-lg navbar-light border-gray-200 px-4 lg:px-6 py-2.5">
-        <div className="container-fluid">
-          <img src={airLine} className="imagePart" alt="Logo" />
+    <header className="shadow sticky z-50 top-0 ">
+      <nav className="navbar navbar-expand-lg navbar-light border-grey-200 px-4 lg:px-6 py-2.5 fixed-top" style={{backgroundColor:"white", boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)'}}>
+        <div className="container-fluid border-4 border-primary " style={{backgroundColor:"white"}}>
+          <a class="navbar-brand" href="#" style={{backgroundColor:"white"}}>
+            <img src={logo} className="imagePart" alt="Logo" />
+          </a>
           <div
             className="collapse navbar-collapse justify-content-center"
-            id="navbarNav">
+            id="navbarNav" style={{backgroundColor:"white"}}>
             <ul className="navbar-nav flightlink">
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/">
+              <li className="nav-item ">
+                <NavLink className="nav-link" to="/" style={{backgroundColor:"white"}}>
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/flight">
+                <NavLink className="nav-link" to="/flight" style={{backgroundColor:"white"}}>
                   Flight
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="flightlink nav-link" to="/about">
+                <NavLink className="flightlink nav-link" to="/about" style={{backgroundColor:"white"}}>
                   About
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="flightlink nav-link" to="/contact">
+                <NavLink className="flightlink nav-link" to="/contact" style={{backgroundColor:"white"}}>
                   Contact
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="flightlink nav-link" to="/mybooking">
+                <NavLink className="flightlink nav-link" to="/mybooking" style={{backgroundColor:"white"}}>
                   MyBooking
                 </NavLink>
               </li>
             </ul>
           </div>
-          <div className="ml-auto d-flex">
+          <div className="ml-auto d-flex" style={{backgroundColor:"white"}}>
             {loggedIn ? (
               <>
                 <div className="d-flex" style={{ marginTop: "9px" }}>

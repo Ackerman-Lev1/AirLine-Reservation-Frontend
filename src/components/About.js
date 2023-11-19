@@ -19,15 +19,10 @@ function About() {
                 flyer or planning your first trip, we've got you covered.
               </h3>
               <p className="mt-4 text-dark">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
-                omnis voluptatem accusantium nemo perspiciatis delectus atque
-                autem! Voluptatum tenetur beatae unde aperiam, repellat expedita
-                consequatur! Officiis id consequatur atque doloremque!
+              We understand that a highly engaged and motivated workforce leads to higher levels of customer service. Our core strength lies in our highly skilled, motivated, and engaged employees, who enable us to deliver the courteous and hassle-free service to the 300,000 passengers flying with us each day. The teamwork displayed by our employees is tangible across our stations and departments. We are proud to have ifly, one of the largest aviation training academies in the world, where the IndiGo spirit is created for over 2,000 people a day.
               </p>
               <p className="mt-4 text-dark">
-                Nobis minus voluptatibus pariatur dignissimos libero quaerat
-                iure expedita at? Asperiores nemo possimus nesciunt dicta veniam
-                aspernatur quam mollitia.
+              Being a responsible airline, we believe that Corporate Social Responsibility (CSR) is an important aspect of our growth strategy.
               </p>
             </div>
           </div>

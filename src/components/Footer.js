@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import airImage from './Images/airAbout.jpg'
+import airImage from './Images/logo.jpg'
 
 function Footer() {
   return (
@@ -14,7 +14,7 @@ function Footer() {
                 src={airImage}
                 className="mr-3 h-16"
                 alt="Logo"
-                style={{width : '25%', borderRadius : '10px'}}
+                style={{width : '25%', borderRadius : '10px', paddingTop : "40px"}}
               />
             </Link>
           </div>
